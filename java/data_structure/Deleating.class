@@ -1,0 +1,23 @@
+package data_structure;
+import java.util.Scanner;
+public class Deleating {
+    public static void main(String[] args){
+        int [] arr=new int[100];
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the term: ");
+		int term=sc.nextInt();
+		for(int i=0; i<term; i++) {
+			arr[i]=sc.nextInt();
+		}
+		System.out.println("Enter the poition:");
+		int posn=sc.nextInt();
+		
+		for(int i=posn; i<=term; i++) {
+				arr[i-1]=arr[i];
+		}
+		System.out.println("We get the value:");
+		for(int i=0; i<term-1; i++) {
+			System.out.println(arr[i]);
+		}
+    }
+}
