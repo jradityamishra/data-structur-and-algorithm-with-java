@@ -185,12 +185,43 @@ public class binarytree1 {
 
      }
     //diameter of tree end//
+    //subtree of another tree start//
+    public boolean isIdentical(Node root,Node subroot){
+        if(root==null && subroot==null){
+            return true;
+        }if(root==null || subroot==null){
+            return false;
+        }
+        if(root.data==subroot.data)
+        {return isIdentical(root.left, subroot.left )&& isIdentical(root.right, subroot.right);
+            
+        }
+        return false;
+    }
+     
+        public boolean isSubTree(Node root,Node subroot){
+        if(subroot==null){
+            return true;
+        }
+        if(root==null){
+            return false;
+        }
+        if(root.data==subroot.data){
+            if(isIdentical( root ,subroot)){
+                return true;
+            }
+        }
+        return isSubTree(root.left, subroot)||isSubTree(root.right, subroot);
+     }
 
    public static void main(String[] args){
         int nodes[]={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
+        //int  nodes1[]={1,2,4};
         binarytree tree=new binarytree();
         Node root=tree.buildTree(nodes);
+       // Node subroot=tree.buildTree(nodes1);
         System.out.println(root.data);
+        //System.out.println(subroot.data);
         preorder(root);
         System.out.println("----inorder---");
         inorder(root);
@@ -208,5 +239,7 @@ public class binarytree1 {
         System.out.println(diameter(root));
         System.out.println("---diameter approch 2 of nodes----");
         System.out.println(diameter2(root).diam);
+        System.out.println("---subtree ----");
+       System.out.println(isSubTree(root,root));
     }
 }
