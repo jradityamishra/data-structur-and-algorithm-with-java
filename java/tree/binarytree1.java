@@ -240,6 +240,6 @@ public class binarytree1 {
         System.out.println("---diameter approch 2 of nodes----");
         System.out.println(diameter2(root).diam);
         System.out.println("---subtree ----");
-       System.out.println(isSubTree(root,root));
+       //System.out.println(isSubTree(root,root));
     }
 }
