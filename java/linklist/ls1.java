@@ -1,4 +1,4 @@
-package data_structure.Linklist;
+package Linklist;
 
 public class ls1 {
     private ListNode head;

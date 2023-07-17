@@ -1,3 +1,4 @@
+package Linklist;
 public class QuestionLinklist {
     Node head;
     private int size;

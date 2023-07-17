@@ -1,3 +1,4 @@
+package Linklist;
 public class tailquestion {
 
     // CREATE NODE

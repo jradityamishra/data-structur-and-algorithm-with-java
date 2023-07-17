@@ -1,4 +1,4 @@
-package data_structure.timecomplexity;
+package timecomplexity;
 
 public class tc1 {
     public static void main(String[] args){

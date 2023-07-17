@@ -1,4 +1,4 @@
-package data_structure.Space_complexity;
+package Space_complexity;
 
 public class sc1 {
     public static void main(String[] args){
