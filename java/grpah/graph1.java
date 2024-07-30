@@ -19,26 +19,20 @@ public class graph1{
         }
 
         graph[0].add(new edge(0,1,2));
-        graph[0].add(new edge(0,2,5));
+        graph[0].add(new edge(0,2,4));
 
-        graph[1].add(new edge(1,0,10));
-        graph[1].add(new edge(1,3,0));
+        graph[1].add(new edge(1,2,1));
+        graph[1].add(new edge(1,3,7));
 
-        graph[2].add(new edge(2,0,2));
-        graph[2].add(new edge(2,4,10));
         
-        graph[3].add(new edge(3,1,0));
-        graph[3].add(new edge(3,4,-1));
-        graph[3].add(new edge(3,5,-1));
+        graph[2].add(new edge(2,4,3));
+        
+        
+        graph[3].add(new edge(3,5,1));
 
-        graph[4].add(new edge(4,3,-1));
-        graph[4].add(new edge(4,2,-1));
-        graph[4].add(new edge(4,5,-1));
+        graph[4].add(new edge(4,3,2));
+        graph[4].add(new edge(4,5,5));
 
-        graph[5].add(new edge(5,4,-1));
-        graph[5].add(new edge(5,3,-1));
-
-        graph[3].add(new edge(6,5,-1));
 
 
     }

@@ -1,0 +1,273 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "lect2",
+      "request": "launch",
+      "mainClass": "hashmap.lect2",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "lect1",
+      "request": "launch",
+      "mainClass": "hashmap.lect1",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "backtrakking",
+      "request": "launch",
+      "mainClass": "recursion.backtrakking",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "subarray",
+      "request": "launch",
+      "mainClass": "recursion.subarray",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "sc1",
+      "request": "launch",
+      "mainClass": "Space_complexity.sc1",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "s1",
+      "request": "launch",
+      "mainClass": "String.s1",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "s2",
+      "request": "launch",
+      "mainClass": "String.s2",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "sq1",
+      "request": "launch",
+      "mainClass": "String.sq1",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "toggletoString",
+      "request": "launch",
+      "mainClass": "String.toggletoString",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "array1",
+      "request": "launch",
+      "mainClass": "array.array1",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "array2dpractice",
+      "request": "launch",
+      "mainClass": "array.array2dpractice",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "array2dpractice2",
+      "request": "launch",
+      "mainClass": "array.array2dpractice2",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "graph1",
+      "request": "launch",
+      "mainClass": "grpah.graph1",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "graph2",
+      "request": "launch",
+      "mainClass": "grpah.graph2",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "LL",
+      "request": "launch",
+      "mainClass": "linklist.LL",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "QuestionLinklist",
+      "request": "launch",
+      "mainClass": "linklist.QuestionLinklist",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "ls1",
+      "request": "launch",
+      "mainClass": "linklist.ls1",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "tailquestion",
+      "request": "launch",
+      "mainClass": "linklist.tailquestion",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "usingjavaFrameWork",
+      "request": "launch",
+      "mainClass": "linklist.usingjavaFrameWork",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "p1",
+      "request": "launch",
+      "mainClass": "pracrice.p1",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "Circular",
+      "request": "launch",
+      "mainClass": "queue.Circular",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "Queuelinklist",
+      "request": "launch",
+      "mainClass": "queue.Queuelinklist",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "q1",
+      "request": "launch",
+      "mainClass": "queue.q1",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "queue",
+      "request": "launch",
+      "mainClass": "queue.queue",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "mergesort",
+      "request": "launch",
+      "mainClass": "recursion.mergesort",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "insertionshort",
+      "request": "launch",
+      "mainClass": "shorting.insertionshort",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "selectionshort",
+      "request": "launch",
+      "mainClass": "shorting.selectionshort",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "shorting1",
+      "request": "launch",
+      "mainClass": "shorting.shorting1",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "balancebracket",
+      "request": "launch",
+      "mainClass": "stack.balancebracket",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "dublicate",
+      "request": "launch",
+      "mainClass": "stack.dublicate",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "largestAreaHistogram",
+      "request": "launch",
+      "mainClass": "stack.largestAreaHistogram",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "nextGenerator",
+      "request": "launch",
+      "mainClass": "stack.nextGenerator",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "s1(1)",
+      "request": "launch",
+      "mainClass": "stack.s1",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "stockSpanProblem",
+      "request": "launch",
+      "mainClass": "stack.stockSpanProblem",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "tc1",
+      "request": "launch",
+      "mainClass": "timecomplexity.tc1",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "binarytree1",
+      "request": "launch",
+      "mainClass": "tree.binarytree1",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    },
+    {
+      "type": "java",
+      "name": "binarytree2",
+      "request": "launch",
+      "mainClass": "tree.binarytree2",
+      "projectName": "data-structur-and-algorithm-with-java_be19e3c9"
+    }
+  ]
+}
